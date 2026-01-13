@@ -12,7 +12,7 @@ import time
 
 
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "INSERT KEY"
 my_thread = threading.Thread(target=test)
 
 # Start the thread
@@ -96,3 +96,4 @@ def run_steve():
 while True:
     run_steve()
     time.sleep(10)
+
